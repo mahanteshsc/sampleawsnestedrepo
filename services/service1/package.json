@@ -7,7 +7,9 @@
     "test": "serverless-bundle test1"
   },
   "dependencies": {
-    "sample": "^0.0.1"
+    "sample": "^0.0.1",
+    "@cf/sample-package": "file:../packages/sample-package",
+    "@cf/libs": "file:../libs"
   },
   "devDependencies": {
     "serverless-bundle": "^1.9.0"

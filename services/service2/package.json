@@ -6,6 +6,10 @@
   "scripts": {
     "test": "serverless-bundle test2"
   },
+  "dependencies": {
+    "sample": "^0.0.1",
+    "@cf/libs": "file:../libs"
+  },
   "devDependencies": {
     "serverless-bundle": "^5.2.0"
   }
